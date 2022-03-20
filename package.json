@@ -1,5 +1,6 @@
 {
   "name": "gerald-chavez-site",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,12 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.0.7",
+    "autoprefixer": "^10.4.2",
+    "daisyui": "^2.2.0",
+    "framer-motion": "^6.2.8",
+    "next": "12.1.0",
+    "postcss": "^8.4.6",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "theme-change": "^2.0.2"
   },
   "devDependencies": {
-    "eslint": "8.4.1",
-    "eslint-config-next": "12.0.7"
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.1.0",
+    "react-icons": "^4.3.1"
   }
 }
