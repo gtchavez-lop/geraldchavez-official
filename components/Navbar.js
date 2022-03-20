@@ -15,17 +15,17 @@ const Navbar = ({ selectedTab, tabChange }) => {
                 <div className="navbar-start" >
                     <p onClick={e => { tabChange(1); }} className="cursor-pointer select-none hover:underline hover:font-bold transition-all duration-100">Gerald Chavez</p>
                 </div>
-                {/* <div className="navbar-end text-right items-start gap-10">
+                <div className="navbar-end text-right items-start gap-10">
                     <ul className=''>
                         <li data-toggle-theme="customDark,customLight" className="cursor-pointer hover:underline hover:font-bold transition-all duration-100">Switch Theme</li>
                     </ul>
-                    <ul className='w-20 text-right flex flex-col justify-end'>
+                    {/* <ul className='w-20 text-right flex flex-col justify-end'>
                         <li onClick={e => { tabChange(1); }} className="cursor-pointer hover:underline hover:font-bold transition-all duration-100">Home</li>
                         <li className="cursor-pointer hover:underline hover:font-bold transition-all duration-100">Works</li>
                         <li className="cursor-pointer hover:underline hover:font-bold transition-all duration-100">About</li>
                         <li className="cursor-pointer hover:underline hover:font-bold transition-all duration-100">Contact</li>
-                    </ul>
-                </div> */}
+                    </ul> */}
+                </div>
             </div>
         </>
     )
